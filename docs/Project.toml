@@ -1,0 +1,8 @@
+name = "docs"
+uuid = "a42a19b7-a3c4-478f-a60c-d193b3111a19"
+authors = ["Ben Zinberg <bzinberg@alum.mit.edu>"]
+version = "0.1.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LogSumExp = "dfaa9721-13f1-40be-817d-714b8837e051"

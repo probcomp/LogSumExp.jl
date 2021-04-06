@@ -1,0 +1,4 @@
+name = "LogSumExp"
+uuid = "dfaa9721-13f1-40be-817d-714b8837e051"
+authors = ["Ben Zinberg <bzinberg@alum.mit.edu>"]
+version = "0.1.0"
