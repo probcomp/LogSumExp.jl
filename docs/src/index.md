@@ -1,3 +1,11 @@
+```@meta
+CurrentModule = LogSumExp
+```
+
 # LogSumExp.jl
 
-Hello world!
+A Julia implementation of `logsumexp`.
+
+```@autodocs
+Modules = [LogSumExp]
+```
