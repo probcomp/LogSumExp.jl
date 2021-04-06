@@ -7,8 +7,10 @@ julia:
 
 jobs:
   include:
+    - stage: test
+      script:
+        - julia -e 'using Pkg; Pkg.build(); Pkg.test()'
     - stage: docs
-      julia: 1.5
       os: linux
       script:
         - julia --project=docs/ -e 'using Pkg;
