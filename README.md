@@ -2,6 +2,12 @@
 
 [![Docs: dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://probcomp.github.io/LogSumExp.jl/dev/)
 
+**Update:** This function exists in
+[StatsFuns.jl](https://github.com/JuliaStats/StatsFuns.jl) (wish I had found
+that on my first search...).  Their implementation is fancier and a little more
+efficient.  Recommend going with theirs unless you really, _really_ want to
+keep your dependencies small.
+
 A Julia implementation of `logsumexp`.
 
 Like in
